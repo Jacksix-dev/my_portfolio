@@ -10,7 +10,7 @@ function MainContent(props) {
         <p className="text-center text-white text-6xl">Facundo Gasco</p>
         <p className="text-2xl mt-2 text-center text-white">Full Stack Developer</p>
         <p className="text-center px-10 mt-3 text-white"> Soy el mejor desarrollador desaroolando en las tecnologias mas intereanstes en este mundo tan copadosaaaaa</p>
-        <button onMouseEnter={props.hoverEnter} onMouseLeave={props.hoverExit} type="button" className=" mt-5 mx-auto button  w-1/5 mb-2">Contactame</button>
+        <button onMouseEnter={props.hoverEnter} onMouseLeave={props.hoverExit} type="button" className=" mt-5 mx-auto button w-2/5 mb-2">Contactame</button>
         </div>
 
     <motion.div
