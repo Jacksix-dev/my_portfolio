@@ -26,7 +26,7 @@ function BackgroundExp() {
         
 
 
-          <div style={{ backgroundColor: '#012A4A' }}  className="relative justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+          <div style={{ backgroundColor: '#012A4A' }}  className=" border-sky-700 border-2 border-double relative justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
 
           <span class="absolute flex left-80 h-3 w-3">
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
