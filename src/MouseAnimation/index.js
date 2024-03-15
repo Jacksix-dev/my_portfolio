@@ -38,7 +38,7 @@ function MouseAnimation() {
           y:mousePosition.y - 40,
           height: 100,
           width:100,
-          backgroundColor: 'rgba(135, 206, 235, 0.5)'
+          backgroundColor: 'rgba(33,150,243, 0.3)'
           
         }
       

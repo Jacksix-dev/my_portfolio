@@ -7,20 +7,23 @@ import { PiGraduationCap } from "react-icons/pi";
 
 function BackgroundExp() {
   return (
-    <div className=" mt-10">
+    <div className=" mt-16">
 
       <div style={{ backgroundColor: '#012A4A' }} className=" m-auto w-1/4 rounded-lg h2">
-       <p className="text-center text-xl text-white">My background</p>
+       <p className="p-2 text-center font-bold text-3xl text-white">My background</p>
       </div>
 
       <div className="grid grid-cols-2  mt-5 gap-y-10 gap-x-10">
 
           
       <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-end rounded-lg w-60 text-center h-10 text-white">
-              Work Experience
+          <p className="p-2 text-center  text-xl text-white">Work Experience</p>
+
            </div>
-           <div style={{ backgroundColor: '#012A4A' }}  className=" rounded-lg w-60 text-center h-10 text-white">
-              Education
+          
+           <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-start rounded-lg w-60 text-center h-10 text-white">
+          <p className="p-2 text-center  text-xl text-white">Education</p>
+
            </div>
         
         

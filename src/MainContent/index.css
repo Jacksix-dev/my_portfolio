@@ -1,7 +1,7 @@
 .button {
     display: inline-block;
     padding: 12px 24px;
-    border: 1px solid #2196F3;
+    border: 1px solid rgb(33, 150, 243);;
     border-radius: 50px;
     transition: all 0.2s ease-in;
     position: relative;
@@ -10,7 +10,7 @@
     cursor: none;
     color: white;
     z-index: 1;
-    background-color: #2196F3;
+    background-color: rgb(33, 150, 243);;
     
   }
   
@@ -22,7 +22,7 @@
     top: 100%;
     width: 140%;
     height: 180%;
-    background-color: #2196F3;
+    background-color: rgb(33, 150, 243);;
     border-radius: 50%;
     display: block;
     transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);

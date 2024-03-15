@@ -26,15 +26,18 @@ const { variants, cursorVariant, hoverEnter, hoverExit } = MouseAnimation();
    <motion.div
      variants={variants}
      animate={cursorVariant}
-     className="z-10 bg-sky-400 rounded-full fixed pointer-events-none	w-10 h-10"/>
+     className="z-10 bg-sky-500 rounded-full fixed pointer-events-none	w-10 h-10"/>
     
      <header className="App-header">
     
-      <HeaderNav></HeaderNav>
+      <HeaderNav
+      hoverEnter={hoverEnter} hoverExit={hoverExit}>
+
+      </HeaderNav>
       </header>
       <body className='App-background'>
       <MainContent
-        onMouseEnter={hoverEnter} onMouseLeave={hoverExit}
+        hoverEnter={hoverEnter} hoverExit={hoverExit}
       />
      
       <SubContent/>
