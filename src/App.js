@@ -44,11 +44,11 @@ const { variants, cursorVariant, hoverEnter, hoverExit } = MouseAnimation();
 
       <BackgroundExp/>
 
-      <Proyects/>
+      <Proyects
+      hoverEnter={hoverEnter} hoverExit={hoverExit}/>
 
       <TechStack/>
-      <h1  onMouseEnter={hoverEnter} onMouseLeave={hoverExit} className='text-white bold'>ENLARGE</h1>
-
+      
       </body>
     </>
      
