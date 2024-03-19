@@ -49,7 +49,8 @@ const { variants, cursorVariant, hoverEnter, hoverExit } = MouseAnimation();
       hoverEnter={hoverEnter} hoverExit={hoverExit}/>
 
       <TechStack/>
-      <Footter/>
+      <Footter
+      hoverEnter={hoverEnter} hoverExit={hoverExit}/>
       </body>
     </>
      

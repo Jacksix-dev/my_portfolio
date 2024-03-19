@@ -4,10 +4,14 @@ import lewagon from './lewagon.png'
 import platzi from './platzi.jpg'
 import { HiOutlineBriefcase } from "react-icons/hi";
 import { PiGraduationCap } from "react-icons/pi";
+import {motion} from 'framer-motion'
 
 function BackgroundExp() {
   return (
-    <div className=" mt-16">
+    <motion.div
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    className=" mt-16">
 
       <div style={{ backgroundColor: '#012A4A' }} className=" m-auto w-1/4 rounded-lg h2">
        <p className="p-2 text-center font-bold text-3xl text-white">My background</p>
@@ -155,7 +159,7 @@ function BackgroundExp() {
       
         
       </div>
-    </div>
+    </motion.div>
   );
 }
 
