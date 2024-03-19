@@ -7,6 +7,7 @@ import { BackgroundExp } from "./BackgroundExp";
 import {Proyects} from './Proyects'
 import { TechStack } from "./TechStack";
 import {motion} from 'framer-motion'
+import { Footter } from './Footter';
 import { MouseAnimation } from './MouseAnimation';
 import './App.css';
 
@@ -48,7 +49,7 @@ const { variants, cursorVariant, hoverEnter, hoverExit } = MouseAnimation();
       hoverEnter={hoverEnter} hoverExit={hoverExit}/>
 
       <TechStack/>
-      
+      <Footter/>
       </body>
     </>
      

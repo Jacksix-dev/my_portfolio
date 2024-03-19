@@ -24,7 +24,7 @@ function MainContent({hoverEnter, hoverExit}) {
     </ReactTyped>
         </p>
         <p className="text-center text-xl px-10 mt-3 text-white"> Full Stack, Full Fun: Creating Awesome Experiences for Everyone.</p>
-        <button onMouseEnter={hoverEnter} onMouseLeave={hoverExit} type="button" className=" mt-5 mx-auto button w-1/5 mb-2">Contactame</button>
+        <button onMouseEnter={hoverEnter} onMouseLeave={hoverExit} type="button" className=" mt-5 mx-auto button w-1/5 mb-2">Contact me!</button>
         </div>
 
       <motion.div

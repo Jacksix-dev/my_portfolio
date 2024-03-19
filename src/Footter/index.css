@@ -1,0 +1,4 @@
+.footter{
+    background: rgb(1,18,32);
+    background: linear-gradient(180deg, rgba(1,18,32,1) 0%, rgba(1,9,15,1) 95%);
+}

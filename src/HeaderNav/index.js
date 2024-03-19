@@ -10,9 +10,9 @@ function HeaderNav({hoverEnter, hoverExit}) {
     <div className='flex flex-row justify-center'>
     
 
-        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit} className=" mt-3 text-white hover:text-gray-600 text-xl mx-10">Home</p>
-        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit}  className="mt-3 text-white hover:text-gray-600 text-xl mx-10" >Proyects</p>
-        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit}  className="mt-3 text-white  hover:text-gray-600 text-xl mx-10">About me</p>
+        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit} className="hover:transition-all transition-all border-b-0 mt-3 text-white hover:border-b-2 hover:border-sky-600 text-xl mx-10">Home</p>
+        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit}  className="hover:transition-all mt-3 text-white hover:border-b-2 hover:border-sky-600  text-xl mx-10" >Proyects</p>
+        <p onMouseEnter={hoverEnter} onMouseLeave={hoverExit}  className="hover:transition-all mt-3 text-white hover:border-b-2 hover:border-sky-600 text-xl mx-10">About me</p>
     </div>
     </>
     

@@ -18,7 +18,7 @@ function TechStack() {
       </div>
 
 
-    <div className="mt-5 flex justify-center">
+    <div className="mt-5 pb-10 flex justify-center">
       <div className="grid gap-y-5 gap-x-1 grid-cols-5 ">
         
           <div style={{ backgroundColor :'rgba(247,223,30,0.110084)'}} 
@@ -100,7 +100,6 @@ function TechStack() {
           </div>
 
 
-          
 
 
          
