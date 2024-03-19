@@ -6,7 +6,10 @@ import {motion} from 'framer-motion'
 import './index.css'
 function MainContent({hoverEnter, hoverExit}) {
   return (
-    <div className='grid grid-cols-2'>
+    <motion.div
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    className='grid grid-cols-2'>
         <div className="flex flex-col justify-items-center">
         <p className="text-center text-white text-8xl">Facundo </p>
         <p className="text-center text-sky-400 text-8xl">Gasco </p>
@@ -23,7 +26,7 @@ function MainContent({hoverEnter, hoverExit}) {
     >
     </ReactTyped>
         </p>
-        <p className="text-center text-xl px-10 mt-3 text-white"> Full Stack, Full Fun: Creating Awesome Experiences for Everyone.</p>
+        <p className=" tracking-wide text-center text-xl px-10 mt-3 text-white"> Full Stack, Full Fun: Creating Awesome Experiences for Everyone.</p>
         <button onMouseEnter={hoverEnter} onMouseLeave={hoverExit} type="button" className=" mt-5 mx-auto button w-1/5 mb-2">Contact me!</button>
         </div>
 
@@ -37,7 +40,7 @@ function MainContent({hoverEnter, hoverExit}) {
       </motion.div>
 
 
-    </div>
+    </motion.div>
      
     
 

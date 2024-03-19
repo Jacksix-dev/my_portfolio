@@ -5,6 +5,7 @@ import htmlLogo from "./html.png"
 import csslogo from './css-icon.png'
 import rubylogo from './rubypng.png'
 import { SiRubyonrails } from "react-icons/si";
+import {motion} from 'framer-motion'
 import react from './react.png'
 import tailwind from './tailwind.png'
 import typescript from './Typescript.png'
@@ -13,12 +14,18 @@ import postgres from './PostgreSQL.png'
 function TechStack() {
   return (
    <>
-    <div style={{ backgroundColor: '#012A4A' }} className=" mt-10 m-auto w-1/4 rounded-lg ">
+    <motion.div
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    style={{ backgroundColor: '#012A4A' }} className=" mt-10 m-auto w-1/4 rounded-lg ">
        <p className="py-2 text-center text-xl text-white">My Stack</p>
-      </div>
+      </motion.div>
 
 
-    <div className="mt-5 pb-10 flex justify-center">
+    <motion.div
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    className="mt-5 pb-10 flex justify-center">
       <div className="grid gap-y-5 gap-x-1 grid-cols-5 ">
         
           <div style={{ backgroundColor :'rgba(247,223,30,0.110084)'}} 
@@ -106,7 +113,7 @@ function TechStack() {
           
 
       </div>
-    </div>
+    </motion.div>
     
    </>
     
