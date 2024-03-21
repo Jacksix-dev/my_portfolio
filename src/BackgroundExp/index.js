@@ -14,26 +14,36 @@ function BackgroundExp() {
     className=" mt-16">
 
       <div style={{ backgroundColor: '#012A4A' }} className=" m-auto w-1/4 rounded-lg h2">
-       <p className="p-2 text-center font-bold text-3xl text-white">My background</p>
+       <p className="p-2 text-center font-bold text-3xl text-white ">My background</p>
       </div>
 
-      <div className=" grid lg:grid-cols-2 grid-cols-1  mt-5 gap-y-10 gap-x-10">
+      <div className=" grid lg:grid-cols-2 grid-cols-1  mt-5  gap-x-10">
 
           
-      <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-end rounded-lg w-60 text-center h-10 text-white">
-          <p className="p-2 text-center  text-xl text-white">Work Experience</p>
-
+           <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-end rounded-lg w-60 text-center h-10 text-white">
+            <p className="p-2 text-center  text-xl text-white">Work Experience</p>
            </div>
           
            <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-start rounded-lg w-60 text-center h-10 text-white">
-          <p className="p-2 text-center  text-xl text-white">Education</p>
-
+            <p className="p-2 text-center  text-xl text-white">Education</p>
            </div>
         
         
 
+           <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center place-self-end">
+              <span class=" z-10 relative mt-6 flex h-3 w-3">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-400"></span>
+              </span>
+            </div>
 
-          <div style={{ backgroundColor: '#012A4A' }}  className="relative border-sky-700 border-2 border-double justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center ">
+          
+        </div>
+
+
+
+          <div style={{ backgroundColor: '#012A4A' }}  className=" shadow-lg ring-1 relative border-sky-400 border-2  justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
 
           
 
@@ -44,10 +54,7 @@ function BackgroundExp() {
                
               </div>
               <div className="static col-span-2">
-              <span class="absolute -right-1 -top-1 flex  h-3 w-3">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-               </span>
+              
                 <h3 className="text-lg mt-2">Freelancer (2024)</h3>
                 
                 <ul className="my-5">
@@ -60,7 +67,7 @@ function BackgroundExp() {
 
            </div>
 
-        <div style={{ backgroundColor: '#012A4A' }} className="grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }} className="shadow-lg border-sky-400 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
           <div className=" flex basis-1/4 ">
                 <img alt='img' className=' m-auto h-13 w-14' src={lewagon}/>
               </div>
@@ -74,7 +81,16 @@ function BackgroundExp() {
               </div>
         </div>
 
-        <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center place-self-end">
+          <div className="w-1 h-8  bg-sky-400"></div>
+        </div>
+
+        <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center ">
+          <div className="w-1 h-8  bg-sky-400"></div>
+        </div>
+        
+
+        <div style={{ backgroundColor: '#012A4A' }}  className=" border-sky-400 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               <div className=" flex basis-1/4 ">
                 <img alt='img' className=' m-auto h-13 w-12' src={harulogo}/>
               </div>
@@ -90,7 +106,9 @@ function BackgroundExp() {
       
       </div>
 
-      <div style={{ backgroundColor: '#012A4A' }}  className=" grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+      
+
+      <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
@@ -112,9 +130,16 @@ function BackgroundExp() {
               
         </div>
 
+        <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center place-self-end">
+          <div className="w-1 h-8  bg-sky-400"></div>
+        </div>
+
+        <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center ">
+          <div className="w-1 h-8  bg-sky-400"></div>
+        </div>
 
         
-        <div style={{ backgroundColor: '#012A4A' }}  className="justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
@@ -133,7 +158,7 @@ function BackgroundExp() {
               
         </div>
 
-        <div style={{ backgroundColor: '#012A4A' }}  className=" grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
