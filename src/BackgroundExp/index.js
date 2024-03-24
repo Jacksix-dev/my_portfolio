@@ -82,15 +82,15 @@ function BackgroundExp() {
         </div>
 
         <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center place-self-end">
-          <div className="w-1 h-8  bg-sky-400"></div>
+          <div className="w-1 h-8  bg-sky-300"></div>
         </div>
 
         <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center ">
-          <div className="w-1 h-8  bg-sky-400"></div>
+          <div className="w-1 h-8  bg-sky-300"></div>
         </div>
         
 
-        <div style={{ backgroundColor: '#012A4A' }}  className=" border-sky-400 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }}  className=" border-sky-300 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               <div className=" flex basis-1/4 ">
                 <img alt='img' className=' m-auto h-13 w-12' src={harulogo}/>
               </div>
@@ -108,7 +108,7 @@ function BackgroundExp() {
 
       
 
-      <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+      <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-300 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
@@ -131,15 +131,15 @@ function BackgroundExp() {
         </div>
 
         <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center place-self-end">
-          <div className="w-1 h-8  bg-sky-400"></div>
+          <div className="w-1 h-8  bg-sky-200"></div>
         </div>
 
         <div style={{ backgroundColor: '#011220' }} className="w-3/6 h-8 flex justify-center ">
-          <div className="w-1 h-8  bg-sky-400"></div>
+          <div className="w-1 h-8  bg-sky-200"></div>
         </div>
 
         
-        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-200 border-2 justify-self-end grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
@@ -158,7 +158,7 @@ function BackgroundExp() {
               
         </div>
 
-        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-400 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
+        <div style={{ backgroundColor: '#012A4A' }}  className="border-sky-200 border-2 grid grid-cols-3 rounded-lg w-3/6 h-6/6 text-white">
               
      
               <div className=" flex basis-1/4 ">
