@@ -2,7 +2,7 @@ import {useState, useEffect } from 'react';
 import React from "react";
 import {HeaderNav} from './HeaderNav'
 import { MainContent } from "./MainContent";
-import { SubContent } from "./SubContent";
+import { CardFlip, SubContent } from "./SubContent";
 import { BackgroundExp } from "./BackgroundExp";
 import {Proyects} from './Proyects'
 import { TechStack } from "./TechStack";
@@ -50,8 +50,12 @@ const {smallCursorVariants, smallVariants, variants, cursorVariant, hoverEnter, 
       <MainContent
         hoverEnter={hoverEnter} hoverExit={hoverExit}
       />
-     
+      <div className='flex flex-col lg:flex-row items-center lg:justify-center'>
       <SubContent/>
+      <SubContent/>
+      <SubContent/>
+      </div>
+      
 
       <BackgroundExp/>
 
@@ -61,6 +65,10 @@ const {smallCursorVariants, smallVariants, variants, cursorVariant, hoverEnter, 
       <TechStack/>
       <Footter
       hoverEnter={hoverEnter} hoverExit={hoverExit}/>
+      <div>
+      
+      </div>
+      
       </body>
     </>
      
