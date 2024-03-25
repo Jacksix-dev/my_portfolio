@@ -52,8 +52,7 @@ const {smallCursorVariants, smallVariants, variants, cursorVariant, hoverEnter, 
       />
       <div className='flex flex-col lg:flex-row items-center lg:justify-center'>
       <SubContent/>
-      <SubContent/>
-      <SubContent/>
+      
       </div>
       
 
