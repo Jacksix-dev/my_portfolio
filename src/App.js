@@ -63,7 +63,7 @@ const {smallCursorVariants, smallVariants, variants, cursorVariant, hoverEnter, 
 
       <TechStack/>
       <Footter
-      hoverEnter={hoverEnter} hoverExit={hoverExit}/>
+        hoverEnter={hoverEnter} hoverExit={hoverExit}/>
       <div>
       
       </div>

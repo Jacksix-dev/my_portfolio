@@ -12,6 +12,7 @@ const Card = ({ frontContent, backContent, icon }) => {
     <motion.div 
     className="mt-10">
       <div
+        id='aboutme'
         className="w-80 h-80 relative"
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}
@@ -45,7 +46,7 @@ const Card = ({ frontContent, backContent, icon }) => {
           animate={{ rotateY: isFlipped ? 0 : -180 }}
           transition={{ duration: 0.5 }}
         >
-          <p className=" tracking-wide text-2xl text-center text-white">{backContent}</p>
+          <p className=" p-1 tracking-wide text-2xl text-center text-white">{backContent}</p>
         </motion.div>
       </div>
     </motion.div>

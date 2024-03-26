@@ -21,7 +21,7 @@ function Proyects({hoverEnter, hoverExit}) {
   return (
     <>
     
-    <div style={{ backgroundColor: '#012A4A' }} className=" mt-10 m-auto w-1/4 rounded-lg h2">
+    <div id="proyects" style={{ backgroundColor: '#012A4A' }} className=" mt-10 m-auto w-1/4 rounded-lg h2">
        <p className="p-2 text-center text-3xl text-white">Proyects</p>
       </div>
 

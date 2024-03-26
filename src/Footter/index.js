@@ -8,7 +8,7 @@ import { MdMailOutline } from "react-icons/md";
 function Footter({hoverEnter, hoverExit}) {
   return (
     <>
-        <div  className="p-5 text-white flex justify-center footter">
+        <div id='contacts' className="p-5 text-white flex justify-center footter">
            
             
             
